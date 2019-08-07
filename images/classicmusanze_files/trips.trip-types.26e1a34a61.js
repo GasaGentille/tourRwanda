@@ -1,0 +1,2 @@
+($WP="undefined"!=typeof $WP?$WP:[]).push({id:"@ta/trips.trip-types",e:["./packages/trips/trip-types/trip-types.jsx"],m:{"./packages/trips/trip-types/trip-types.jsx":function(p,t){}}});
+//# sourceMappingURL=trips.trip-types.26e1a34a61.js.map
