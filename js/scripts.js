@@ -50,3 +50,8 @@ window.onclick = function(event) {
 //     }
 //   }
 // }
+$("#book").click(function() {
+  alert("Thanks for the book");
+});
+ktdjhtdfhkdfhkchkuio
+;khugjvilb
