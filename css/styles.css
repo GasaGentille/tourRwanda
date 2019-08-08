@@ -5,20 +5,21 @@
     background-position: center;
 }
 .main{
-      color:rgb(224, 221, 187);
-      padding-top: 200px;
-      margin-left: 700px;
+    color:rgb(224, 221, 187);
+    padding-top: 200px;
+    margin-left: 700px;
 }
 .hd2{
-      margin-left: 80px;
+     margin-left: 80px;
+     font-family: "roboto",sans-serif;
 }
 a{
-      color: rgb(224, 221, 187);
-      font-size: 15px;
-      font-style: inherit;
-      font-family: "roboto",sans-serif;
-      margin-top: 30px;
-      margin-right: 10px; 
+    color: rgb(224, 221, 187);
+    font-size: 15px;
+    font-style: inherit;
+    font-family: "roboto",sans-serif;
+    margin-top: 30px;
+    margin-right: 10px; 
 }
 .button{
     margin-left: 50px; 
@@ -31,6 +32,7 @@ a{
     text-decoration: none;
     margin-right: 5px;
     font-size: 13px;
+    font-family: "roboto",sans-serif;
     text-transform: uppercase;
 }
 .btn-one{
@@ -48,6 +50,7 @@ a{
 p{
     font-size: 13.3px;
     color: rgb(105, 56, 21);
+    font-family: "roboto",sans-serif;
 }
 img{
     width: 300px;
@@ -58,14 +61,10 @@ img{
 .image img:hover{
     transform:scale(1.1);
   }
-.col-sm-4{
-    text-align: left;
-}
 .mize{
-    background-image: url(http://www.rcb.rw/wp-content/uploads/2018/05/Imigongo-Vector.jpg);
+    background-image: url("http://www.rcb.rw/wp-content/uploads/2018/05/Imigongo-Vector.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-color: rgba(70, 66, 62, 0.37); */
 }
 .pop{
     color: darkolivegreen;
@@ -75,5 +74,19 @@ img{
 }
 h4{
     color: darkolivegreen;
+    font-family: "roboto",sans-serif;
 }
-
+.abt{
+    background: rgba(33, 63, 32, 0.37);
+    font-family: "roboto",sans-serif;
+}
+.more{
+    font-size: 15px;
+    font-family: "roboto",sans-serif;
+}
+footer{
+    background: rgb(2, 19, 2);
+}
+.footer-copyright{
+    color: darkolivegreen;
+}
