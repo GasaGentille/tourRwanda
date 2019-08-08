@@ -33,7 +33,7 @@ ul{
     .text{
         color: rgb(101, 145, 95);
         text-align: center;
-        font-size: 20px;
+        font-size: 25px;
     
     }
     .more{
@@ -68,4 +68,8 @@ ul{
     #p1,#p2,#p3,#p4{
         position:relative;
         top:-150px;
+    }
+    .page-footer{
+        background-color: rgb(15, 14, 14);
+        color: white;
     }
