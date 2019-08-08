@@ -1,0 +1,29 @@
+/* .jumbotron{
+    background-image: url("https://patch.com/img/cdn20/users/22729282/20180427/110819/styles/raw/public/processed_images/denizo71_italian_food_pizza_shutterstock_132517535-1524841650-5657.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px;
+    color: black;
+    } */
+    h1{
+        background-color: grey;
+        text-align: center;
+    }
+    /* body{
+        background-color: aqua;
+        background-image: url("https://i.content4travel.com/cms/img/u/desktop/prodsliderphoto//znzmeli_0.jpg?version=72?version=1");
+        background-repeat: no-repeat;
+        background-size: cover;
+    } */
+    h2{
+        text-align: center;
+    }
+    /* img{
+        width: 300px;
+    } */
+    /* .header{
+        /* background-image:linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url("https://www.newtimes.co.rw/sites/default/files/main/articles/2018/05/19/1_61_16.jpg"); */
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+    } */
