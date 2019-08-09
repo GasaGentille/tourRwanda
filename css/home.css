@@ -1,0 +1,76 @@
+
+.body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://pbs.twimg.com/media/Co_wU7iVIAApOGK.jpg");
+    background-size: cover;
+    
+    /* background-repeat: no-repeat; */
+}
+body{
+    font-family: 'PT Serif', serif;
+}
+ul{
+    list-style-type:none;
+    
+    margin:o;
+    padding:0;
+    overflow:hidden;
+    background-color:rgba(60, 92, 57, 0.5);
+  }
+    li{
+      float:left;
+    }
+    li a{
+      display:block;
+      color:white;
+      text-align:center;
+      padding:14px 16px;
+      text-decoration:none;
+    }
+    li a:hover:not(.active){
+      background-color:rgb(5, 5, 5);
+      color: aliceblue;
+      text-decoration: none;
+    }
+    .text{
+        color: rgb(101, 145, 95);
+        text-align: center;
+        font-size: 25px;
+    
+    }
+    .more{
+        background-color:white; 
+        text-align: center;
+    }
+    .col-md-3{
+        background-color: transparent;
+        justify-content: space-between;
+        ;
+    }
+    .size{
+        width: 300px;
+        height: 170px
+    }
+    img{
+        border: 1px solid #BFBFBF;
+        background-color: white;
+        box-shadow: 10px 10px 5px #aaaaaa;
+    }.about{
+        background-color: white;
+    }
+    footer{
+        background-color: #aaaaaa;
+        text-align: center;
+    }
+    /* sdfghjkl; */
+    /* #p1, #p2, #p3, #p4{
+        display: none;
+    }  */
+    
+    #p1,#p2,#p3,#p4{
+        position:relative;
+        top:-150px;
+    }
+    .page-footer{
+        background-color: rgb(15, 14, 14);
+        color: white;
+    }
