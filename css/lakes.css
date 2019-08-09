@@ -1,0 +1,77 @@
+@media only screen and (max-width: 768px) {
+  .car-body {
+    width: 100%;
+  }
+}
+@import url("https://fonts.googleapis.com/css?family=PT+Sans&display=swap");
+body {
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://visitafrica.travel/wp-content/uploads/2019/03/lake-muhazi-rwanda-1.jpg"); */
+    background-image: url("https://journeysbydesign.com/wp-content/uploads/2017/01/Lake_Kivu_Serena_Hotel_Beach-1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+ 
+}
+.one {
+  background-color:transparent;
+  /* color: darkgreen; */
+}
+.two {
+  background-color: transparent;
+}
+.three {
+  background-color: transparent;
+}
+img{
+  width: 400px;
+  height: 300px;
+}
+#activities {
+  text-align: center;
+  padding-left: 450px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.main {
+  padding: 5px;
+  margin-top: 30px;
+  height: 1500px;
+}
+#muhazip {
+  margin-top: -60px;
+}
+#footer {
+  background-color: gray;
+  text-align: center;
+  color: black;
+}
+p {
+  color: black;
+}
+td {
+  color: black;
+}

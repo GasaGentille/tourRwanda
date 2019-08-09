@@ -46,6 +46,16 @@ $("#p1").hide();
         $("#book").click(function() {
             alert("Thanks for the book");
           });
+          $("p#muhazip").hide();
+    $("#muhazi").hover(function(){
+        $(this).stop().animate({opacity:.2},200);
+        $("p#muhazip").fadeIn();
+    },
+     function hover(){
+        $(this).stop().animate({opacity:2},500);
+        $("p#muhazip").fadeOut();
+    });
+    
     });
 // // Close the dropdown if the user clicks outside of it
 // window.onclick = function(event) {
