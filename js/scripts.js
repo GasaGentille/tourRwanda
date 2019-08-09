@@ -43,4 +43,23 @@ $("#p1").hide();
             $(this).stop().animate({opacity:1});
             $("#p4").fadeOut();
         });
+        $("#book").click(function() {
+            alert("Thanks for the book");
+          });
     });
+// // Close the dropdown if the user clicks outside of it
+// window.onclick = function(event) {
+//   if (!event.target.matches('.dropbtn')) {
+//     var dropdowns = document.getElementsByClassName("dropdown-north");
+//     var i;
+//     for (i = 0; i < dropdowns.length; i++) {
+//       var openDropdown = dropdowns[i];
+//       if (openDropdown.classList.contains('show')) {
+//         openDropdown.classList.remove('show');
+//       }
+//     }
+//   }
+// }
+
+// ktdjhtdfhkdfhkchkuio
+// ;khugjvilb

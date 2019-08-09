@@ -73,3 +73,172 @@ ul{
         background-color: rgb(15, 14, 14);
         color: white;
     }
+body {
+  /* background-image: url('../images/epic_files/background.jpg' ); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#head_section {
+  text-align: center;
+  height: 50%;
+  line-height: 60px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  box-shadow: 2px 2px 5px #c0c0c0;
+}
+
+nav > ul > li > a {
+  padding: 60px;
+  text-decoration: none;
+  /* margin:auto; */
+}
+
+/*dropdown*/
+.dropbtn {
+  background-color: #3498db;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover,
+.dropbtn:focus {
+  background-color: #2980b9;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a,
+.dropdown-north a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {
+  background-color: #ddd;
+}
+
+.show {
+  display: block;
+}
+.dropdown-north {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 16px 20px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("https://www.newtimes.co.rw/sites/default/files/main/articles/2018/05/19/1_61_16.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+}
+.main {
+  color: rgb(224, 221, 187);
+  padding-top: 200px;
+  margin-left: 700px;
+}
+.hd2 {
+  margin-left: 80px;
+  font-family: "roboto", sans-serif;
+}
+a {
+  color: rgb(224, 221, 187);
+  font-size: 15px;
+  font-style: inherit;
+  font-family: "roboto", sans-serif;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+.button {
+  margin-left: 50px;
+}
+.btn {
+  border-radius: 5px;
+  border: 1px solid rgb(89, 128, 89);
+  padding: 10px 30px;
+  color: rgb(224, 221, 187);
+  text-decoration: none;
+  margin-right: 5px;
+  font-size: 13px;
+  font-family: "roboto", sans-serif;
+  text-transform: uppercase;
+}
+.btn-one {
+  background-color: rgb(66, 100, 66);
+  color: rgb(224, 221, 187);
+  font-family: "roboto", sans-serif;
+}
+.btn-two {
+  font-family: "roboto", sans-serif;
+}
+.btn-two:hover {
+  background-color: rgb(205, 228, 143);
+  color: whitesmoke;
+}
+p {
+  font-size: 13.3px;
+  color: rgb(105, 56, 21);
+  font-family: "roboto", sans-serif;
+}
+img {
+  width: 300px;
+  height: 300px;
+  border-radius: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image img:hover {
+  transform: scale(1.1);
+}
+.mize {
+  background-image: url("http://www.rcb.rw/wp-content/uploads/2018/05/Imigongo-Vector.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pop {
+  color: darkolivegreen;
+  text-align: center;
+  font-family: "roboto", sans-serif;
+  font-style: oblique;
+}
+h4 {
+  color: darkolivegreen;
+  font-family: "roboto", sans-serif;
+}
+.abt {
+  background: rgba(33, 63, 32, 0.37);
+  font-family: "roboto", sans-serif;
+}
+.more {
+  font-size: 15px;
+  font-family: "roboto", sans-serif;
+}
+footer {
+  background: rgb(2, 19, 2);
+}
+.footer-copyright {
+  color: darkolivegreen;
+}
